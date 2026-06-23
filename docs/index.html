@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <title>Woxi Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Entries">
+        <div class="brand">
+          <div class="brand-mark">W</div>
+          <div>
+            <h1>Woxi Page</h1>
+            <p>Public thinking archive</p>
+          </div>
+        </div>
+
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="title, tag, summary" autocomplete="off" />
+        </label>
+
+        <div class="meta-row">
+          <span id="entryCount">0 entries</span>
+          <a href="./ai-index.json">AI index</a>
+        </div>
+
+        <nav id="entryList" class="entry-list" aria-label="Entry list"></nav>
+      </aside>
+
+      <main class="reader">
+        <div class="reader-top">
+          <div>
+            <p id="entryDate" class="entry-date"></p>
+            <h2 id="entryTitle">Loading</h2>
+          </div>
+          <a id="rawLink" class="raw-link" href="#">Raw</a>
+        </div>
+
+        <div id="tagList" class="tag-list"></div>
+        <article id="entryContent" class="entry-content"></article>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
