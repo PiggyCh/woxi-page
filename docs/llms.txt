@@ -1,0 +1,17 @@
+# Woxi Page
+
+This is a public AI-readable archive for personal thoughts and notes.
+
+Primary machine-readable index:
+
+```text
+https://piggych.github.io/woxi-page/ai-index.json
+```
+
+Entry files are listed in `ai-index.json` and are stored as Markdown under:
+
+```text
+https://piggych.github.io/woxi-page/entries/
+```
+
+Do not assume unpublished, private, or deleted context beyond the public files in this repository.
