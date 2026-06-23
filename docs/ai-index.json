@@ -1,0 +1,21 @@
+{
+  "site": {
+    "name": "Woxi Page",
+    "description": "Public personal writing, thoughts, and long-running AI-readable context.",
+    "privacy": "public GitHub Pages; do not include secrets or private notes",
+    "generated_at": "2026-06-23T03:47:35.360534Z"
+  },
+  "entries": [
+    {
+      "id": "2026-06-23-start",
+      "title": "Start",
+      "date": "2026-06-23",
+      "tags": [
+        "system",
+        "thinking"
+      ],
+      "summary": "Initial note describing how this repository should be used as a public, AI-readable thinking archive.",
+      "path": "entries/2026-06-23-start.md"
+    }
+  ]
+}
